@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Background Clip key css</title>
+</head>
+
+<style>
+
+p {
+  border: 0.8em darkviolet;
+  border-style: dotted double;
+  margin: 1em 0;
+  padding: 1.4em;
+  background: linear-gradient(60deg, red, yellow, red, yellow, red);
+  font: 900 1.2em sans-serif;
+  text-decoration: underline;
+}
+
+ .borderbox {
+           background-clip: border-box;
+
+ }
+
+ .padding{
+      background-clip: padding-box;
+ }
+.content {
+    background-clip: content-box;
+}
+
+</style>
+   
+<p class="borderbox">
+    This is content show the background layer is extended 
+
+</p>
+<p class="padding">
+ This content show the background layer is only extend to the edge of the border
+</p>
+
+<p class="content">
+     This content is show background only to text area... 
+</p>
+
+<body>
+    
+</body>
+</html>

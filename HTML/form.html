@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Form HTML</title>
+</head>
+ <body>
+    <center> <h1>Form of a Travel Vacation Agency</h1></center>
+    <form>
+        <label for="name">First Name : </label><br>
+ <input type="text" name="Fname" placeholder="Enter First  Name">   <!--Name is used as a variable name of the filed that-->
+ <br>                                <!--will sent the data to the server in the form of  contained variable anme-->
+ <label for="lname">Last Name : </label><br>
+ <input type="text"  name="lname" placeholder="Enter Last name"><br>  <!--Value is the original text or value  of the tag-->
+ <label for="email">Email :</label><br>   <!--Value Attribute is optional -->
+ <input type="email"  name="email" placeholder="Enter your email address">
+ <br>
+ <label for="gender">Gender: </label><br>
+ <input type="radio" id="male" name="gender" value="Male">
+ <label for="male"> Male</label><br>
+ <input type="radio" id="female" name="gender" value="Female">
+ <label for="female"> Female</label><br>
+ <input type="radio" id="other" name="gender" value="Other">
+ <label for="other"> Other</label><br>
+ <label for="mobile no">Mobile No : </label>
+ <select name="Country">
+    <option >Select country code</option>
+    <option value="India">+91 ( India )</option>
+    <option value="USA">+1 ( USA )</option>
+    <option value="UK">+44 ( UK )</option>
+    <option value="Australia">+61 ( Australia )</option>
+    <option value="Canada">+1 ( Canada )</option>
+ </select>
+ <input type="tel" name="mobile" placeholder="Enter you mobile no">
+ <br>
+ <br>
+ <label for="traveldetail">Travel Details  </label>
+ <select name="Country">
+    <option selected="selected" disabled="disabled" > Select Country </option>
+    <option value="India"> India </option>
+    <option value="USA"> United States Of America </option>
+    <option value="Japan"> Japan </option>
+    <option value="China"> China </option>
+    <option value="Brazil"> Brazil </option>
+    <option value="Africa"> Africa </option>
+    <option value="Europe"> Europe </option>
+ </select>
+ To
+ <select name="To country">
+    <option selected="selected" disabled="disabled"> Country/State </option>
+    <optgroup label="Cities in India ">Goa</optgroup>
+    <option>Goa</option>
+    <option>Delhi</option>
+    <option>Kolkata</option>
+    <option>Hyderabad</option>
+    <option>Mumbai</option>
+    <optgroup label="Cities in US ">New York </optgroup>
+    <option>Los Angeles</option>
+    <option>San Francisco</option>
+    <option>Dallas/Fort Worth</option>
+    <option>Washington D.C.</option>
+ </select><br>
+Starting Journey Date <input type="date" name="from"> <br><br>
+Returning Journey Date<input type="date" id="yes" name="return">
+<br>
+<br>
+<label type="file">Attach A pohto of yours</label>
+<br><input type="file" placeholder="Chooses a photo of yours..">
+<br><br>
+<label for="People">How many people wanted to travel </label>
+<br><select >
+    <option value="1"> 1 </option>
+    <option value="2">2</option>
+    <option value="3-4">3-4</option>
+    <option value="5+">5+</option>
+</select>
+<br>
+<br>
+<textarea rows="3" cols="40" placeholder="Enter any query">Enter Any Query You want ....</textarea>
+<br>
+<input type="radio" name="Read T&C">
+<label for="T&C">I accept T&C </label>
+<br>
+<button onclick="alert('Your booking is successfully created !')">Submit</button>
+
+    </form>
+
+</body>
+</html>
