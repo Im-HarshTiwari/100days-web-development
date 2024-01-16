@@ -1,0 +1,11 @@
+Parent Element (Container)
+Like we specified in the previous chapter, this is a flex container (the voilet  area) with three flex items:
+..
+The flex container properties are:
+
+flex-direction
+flex-wrap
+flex-flow
+justify-content
+align-items
+align-content

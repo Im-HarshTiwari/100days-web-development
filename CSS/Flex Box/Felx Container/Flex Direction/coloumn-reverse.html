@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parent Container of Flex</title>
+    <style>
+      .container {
+        margin-top: 55px;
+        display: flex;
+        padding: 5px;
+       background: blueviolet;
+       color: white;
+
+       flex-direction: column-reverse ;  /*flex direction added*/
+      }   
+      .container > div {
+        padding: 10px;
+        margin: 10px;
+        background-color: aliceblue;
+        color: black;
+        font-size: 19px;
+      }
+
+
+    </style>
+</head>
+<body>
+    
+ <div class="container">
+    <span>Parent container</span>
+ 
+    <div>Child 1</div>
+    <div>Child 2</div>
+    <div>Child 3</div>
+ </div>
+
+</body>
+</html>
