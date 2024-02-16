@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Child Item properties</title>
+
+<style>
+    body{
+        padding: 10px;
+    }
+ .container {
+    display: flex;
+    background-color: blueviolet;
+    border: solid blue ;
+ }
+ .container > div {
+    margin: 5px;
+    padding: 20px;
+    border: solid rgb(252, 247, 247);
+    font-size: 20px;
+    font-style: bold;
+    background-color: rgb(31, 6, 10);
+    color: cyan;
+
+    flex-wrap: wrap;
+
+
+    
+ }
+
+</style>
+</head>
+<body>
+
+    <div class="container">
+    <div style="order: 4;" >Child 1</div>
+    <div style="order: 3;">Child 2</div>
+    <div style="order: 1;">Child 3</div>
+    <div>Child 4</div>
+    </div>
+    
+</body>
+</html>

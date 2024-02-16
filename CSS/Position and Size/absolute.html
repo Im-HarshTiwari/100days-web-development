@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav Bar</title>
+<style>
+
+header{
+    padding: 10px;
+    width: 100vw;
+}
+ul{
+    display: inline;
+    
+    color: black;
+   
+}
+nav{
+    display: block;
+    background-color: black;
+    color: rgb(4, 135, 250);
+    
+    
+    
+}
+li  {
+    
+    border: 1px solid red;
+    padding: 1px;
+    background-color: blueviolet;
+    display: inline-flex;
+    color: rgb(255, 255, 255);
+}
+.b1 {
+    display: inline-block;
+    border: solid 3px green;
+    box-sizing: content-box;
+    padding-inline: 20px;
+    margin-top: 50px;
+    height: 80vh;
+    width: 80vw;
+    padding-top: 25px;
+    background: #000;
+    color: white;
+}
+.b2{
+    border: solid   10px red;
+    background: red;
+    color: white;
+    font-size: 15px;
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    top: 310px ;
+    left: 40px;
+}
+.b3{
+    border: solid   10px green;
+    background: green;
+    color: white;
+    font-size: 15px;
+    width: 75px;
+    height: 75px;
+    position: sticky;
+    top: 240px ;
+    left: 110px;
+}
+.b4 {
+    border: solid   10px yellow;
+    background: yellow;
+    color: rgb(115, 6, 6);
+    font-size: 15px;
+    width: 75px;
+    height: 75px;
+    position: fixed;
+    top: 290px ;
+    left: 140px;
+}
+
+
+
+</style>
+</head>
+<body>
+    <header>
+<div >
+    <nav>
+    <ul>
+        <li>Home</li> 
+        <li>About</li> 
+        <li>Contact Us</li> 
+        <li>Help</li>
+    </ul>
+</nav>
+</div>
+ <div class="b1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam aut recusandae modi vel in ex ullam, quod alias tempora, perspiciatis esse inventore maiores eius voluptate debitis voluptatem? Consequuntur, reprehenderit eum.
+
+ 
+ <div class="b2">red is in absolute</div>
+ <div class="b3">Green is in sticky</div>
+ <div class="b4">yellow is in fixed</div>
+ </div>
+</header>
+
+</body>
+</html> 

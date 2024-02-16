@@ -1,0 +1,41 @@
+ <!-- CSS - The :first-child Pseudo-class
+The :first-child pseudo-class matches a specified element that is the first child of another element.
+
+Match the first <p> element
+In the following example, the selector matches any <p> element that is the first child of any element:
+
+Example
+p:first-child {
+  color: blue;
+}
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Child of Psuedo CLass..</title>
+    <style>
+
+        p i:first-child  {
+            color:blue;
+            font-size: 19px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <p>This IS <i>blue</i> 1st child</p>
+    <p>This is Blue 2nd Child </p>
+
+    <div>
+        <p>This IS blue 1st child</p>
+        <p>This is Blue 2nd Child </p>
+        <i>This is the First Child of Psuedo Class</i> in CLass.
+        And <i>It Works like the first Child of Class is Specified by different
+        Different Attributes</i>
+    </div>
+    
+</body>
+</html>

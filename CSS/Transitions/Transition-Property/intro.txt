@@ -1,0 +1,12 @@
+The transition-property CSS property sets the CSS properties to which a transition effect should be applied.
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/transition-property
+
+/* Keyword values */
+transition-property: none;
+transition-property: all;
+
+/* <custom-ident> values */
+transition-property: test_05;
+transition-property: -specific;
+transition-property: sliding-vertically;
